@@ -7,7 +7,7 @@ def sigmoid(z):
     return 1/(1+EXP**(-z))
 
 # 시그모이드 미분값
-def sigmoid_derivative(z):
+def sigmoid_derivative(z): 
     return sigmoid(z) * (1-(sigmoid(z)))
 
 # relu 함수
